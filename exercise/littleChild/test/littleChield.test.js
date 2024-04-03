@@ -1,10 +1,7 @@
 import { describe, it, expect } from 'vitest';
+import { littleChild } from '../littleChield';
 
-const littleChild = () => {
-    
-};
-
-describe("test", () =>{
+describe("Es una función", () =>{
     it('test', () => {
         expect(typeof littleChild).toBe('function');
     })
