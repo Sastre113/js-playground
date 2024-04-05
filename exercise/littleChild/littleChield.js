@@ -19,4 +19,4 @@ export const littleChild = (child1, child2) => {
 
 const isInRange = (number) => {
     return number >= 0 && number <= 14 
-}
+};
